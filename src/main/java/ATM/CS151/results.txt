@@ -1,0 +1,35 @@
+Assume all accounts have 600 dollars preloaded!
+List of all cutomers in bankA: 
+Bob - cash card (A123) Expires: 1/5/2019, Password: helloworld, Balance: 600.0
+Tony - cash card (A124) Expires: 3/5/2022, Password: tony 22, Balance: 600.0
+
+List of all cutomers in bankB: 
+Bob - cash card (B12) Expires: 3/5/2022, Password: helloworld, Balance: 600.0
+Ben - cash card (B13) Expires: 3/5/2022, Password: CS151, Balance: 600.0
+Sara - cash card (B14) Expires: 3/5/2022, Password: SJSU, Balance: 600.0
+
+State of 4 ATM's: 
+ATM1_A: ATM for bankA
+   The maximum amount of cash a card can widthraw per transaction: 500.0
+ATM2_A: ATM for bankA
+   The maximum amount of cash a card can widthraw per transaction: 300.0
+ATM1_B: ATM for bankB
+   The maximum amount of cash a card can widthraw per transaction: 250.0
+ATM2_B: ATM for bankB
+   The maximum amount of cash a card can widthraw per transaction: 50.0
+
+%Enter your choice of ATM: ATM2_B
+%Enter your card: A124
+%This card is not supported by this ATM the card has been returned to you! Please enter a different card: B13
+%A card has been accepted!
+%Enter password: wrongpassword
+%Wrong Password! Please try again: CS151
+%Authorization Accepted: Start by entering the amount you would like to withdraw: 70
+%The amount that you wanted to withdraw exceeded the max allowed! Please enter a new value: 45
+%$45.0 is withdrawn from  your account. The remaining balance of this account is $ 555.0
+%The transaction has been successfuly completed! Enter another amount or [Q]uit: q
+
+%This is your transaction log: 
+%45.0 withdrawn
+
+%Thank you, please come again!
